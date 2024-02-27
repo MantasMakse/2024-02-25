@@ -1,0 +1,51 @@
+.fourth-container {
+    display: flex;
+}
+    .container-lable {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      align-content: center;
+      padding-top: 150px;
+      max-width: 412px
+      
+      
+  }
+  
+  .container-lable span{
+      color: #F3B562;
+      font-size: 24px;
+      text-transform: uppercase;
+  }
+  
+  .container-lable h3{
+      font-size: 41px;
+      text-transform: uppercase;
+      margin: 0;
+      color: #647B64;
+  }
+  
+  .container-lable p{
+      color: #4F4F4F;
+      font-size: 16px;
+  }
+  
+  .container-lable button{
+      border: none;
+      background-color: rgb(8, 65, 8);
+      padding: 12px 24px 12px 24px;
+      border-radius: 4px;
+      color: #fff;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 24px center;
+      width: 50%;
+      position: relitive;
+     text-align: left;
+     text-transform: uppercase;
+  }
+  
+  .fourth-container img {
+      width: 623px;
+      height: 605px;
+  }

@@ -1,0 +1,135 @@
+footer {
+    padding: 100px 140px;
+     width: 100%;
+    height: 100%;
+   background-color: rgb(240, 220, 197);
+
+   .footer-container {
+    display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.footer-container p {
+    font-family: Avenir-next, "sans-serif";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+   padding: 7px;
+   color: #4F4F4F;
+
+}
+
+
+.first-section {
+    display: block;
+  max-width: 300px;
+}
+
+.first-section img {
+    display: flex; 
+}
+  
+.first-section .social-media {
+    display: flex;
+  column-gap: 16px;
+}
+
+.social-media img {
+    padding: 7px;
+  background-color: #e2d2bb;
+  border-radius: 50px;
+}
+
+.second-footer {
+    color: rgb(100, 123, 100);
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: Avenir-next, "sans-serif";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.second-footer ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 0;
+}
+
+.second-footer li{
+   list-style: none; 
+   font-size: 16px;
+   font-family: Avenir-next, "sans-serif";
+}
+
+.third-footer {
+    color: rgb(100, 123, 100);
+  text-transform: capitalize;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: Avenir-next, "sans-serif";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.third-footer ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 0;
+}
+
+.third-footer li{
+   list-style: none; 
+   font-size: 16px;
+   font-family: Avenir-next, "sans-serif";
+}
+
+.fourth-footer {
+    display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.fourth-footer {
+    color: rgb(100, 123, 100);
+  text-transform: capitalize;
+  margin: 0 0 13px;
+  font-family: Avenir-next, "sans-serif";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.fourth-footer button {
+    border: none;
+    background-color: rgb(8, 65, 8);
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;
+    color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7.41' height='12' viewBox='0 0 7.41 12'%3E%3Cpath d='M10,6,8.59,7.41,13.17,12,8.59,16.59,10,18l6-6Z' transform='translate(-8.59 -6)' fill='%23fff'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    width: 100%;
+    position: relitive;
+   text-align: left;
+   text-transform: uppercase;
+}
+
+.fourth-footer textarea{
+    resize: none;
+  width: 283px;
+  height: 113px;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 28px;
+  font-family: Avenir-next, "sans-serif";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+}
